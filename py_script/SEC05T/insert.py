@@ -7,7 +7,7 @@ def load_data_infile(csv_material_file_path : str, start_date : str, end_date : 
 
     pymysql.install_as_MySQLdb()
 
-    sec_db = pymysql.connect(user = "root", password = "@realdata1!", host = '211.170.143.158', port = 13306, local_infile = True, autocommit = True)
+    sec_db = pymysql.connect(user = "", password = "", host = '', port = "", local_infile = True, autocommit = True)
     
     cursor = sec_db.cursor()
     cursor.execute("SET GLOBAL local_infile=1;")

@@ -17,7 +17,7 @@ def load_data_infile(csv_material_file_path : str) :
                                                                       # (SEC12T 테이블 內 해당 종목들의 데이터에 대한 DELETE를 수행하기 때문에, 이 문자열 선언이 필요함)
     pymysql.install_as_MySQLdb()
 
-    sec_db = pymysql.connect(user = "root", password = "@realdata1!", host = '211.170.143.158', port = 13306, local_infile = True, autocommit = True)
+    sec_db = pymysql.connect(user = "", password = "", host = '', port = "", local_infile = True, autocommit = True)
     cursor = sec_db.cursor()
    
     cursor.execute("SET GLOBAL local_infile=1;")

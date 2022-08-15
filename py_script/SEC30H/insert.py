@@ -25,7 +25,7 @@ def load_data_infile(csv_material_directory_path : str) :
 
     pymysql.install_as_MySQLdb()
 
-    sec_db = pymysql.connect(user = "root", password = "@realdata1!", host = '211.170.143.158', port = 13306, local_infile = True, autocommit = True)
+    sec_db = pymysql.connect(user = "", password = "", host = '', port = "", local_infile = True, autocommit = True)
     cursor = sec_db.cursor()
     cursor.execute("SET GLOBAL local_infile=1;")
     result = cursor.execute("""LOAD DATA LOCAL INFILE '{}' INTO TABLE sec.sec30h CHARACTER SET utf8mb4 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES (BASE_DATE,YAHOO_IS_CD,MKT_DIV,NAVER_IS_CD,IS_NM_ENG,INDUST_DIV,INDUST_DIV_CD);""".format(recent_csv_file_path))
