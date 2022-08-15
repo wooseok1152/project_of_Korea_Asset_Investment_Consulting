@@ -9,14 +9,14 @@
 (pykrx document : https://github.com/sharebook-kr/pykrx) 
 
 * ERD 목록(physical)
-  * 국내주식 : 
-  * 국내ETF :
-  * 해외주식 : 
+  * 국내주식 : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/ERD/png/Domestic_stock_physical.png
+  * 국내ETF : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/ERD/png/domestic_ETF_physical.png
+  * 해외주식 : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/ERD/png/USA_stock_physical.png
 <br/><br/>
 
 * 테이블 정의서(logical)
-  * 테이블 정의서 :
-  * 테이블 상세 정의서 :
+  * 테이블 정의서 : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/documents/specification_of_table.xlsx
+  * 테이블 상세 정의서 : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/documents/specification_of_table(detail).xlsx
 
 
 # Python Script에 대한 개요
