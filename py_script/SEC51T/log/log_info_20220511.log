@@ -1,0 +1,5 @@
+2022-05-11 14:24:27,493 - INFO - [<module>:21] - making df_etf_OHLCV_by_base_date_and_is finished
+2022-05-11 14:24:28,644 - INFO - [<module>:24] - making csv file finished
+2022-05-11 14:24:31,000 - INFO - [<module>:27] - there are 169387 data in csv file and 169387 records are loaded in table
+2022-05-11 14:24:31,000 - INFO - [<module>:29] - batch for inserting data into SEC51T finished
+2022-05-11 14:24:31,000 - INFO - [<module>:30] -  

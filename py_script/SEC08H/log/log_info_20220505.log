@@ -1,0 +1,4 @@
+2022-05-05 18:21:06,159 - INFO - [<module>:16] - making a csv file finished
+2022-05-05 18:21:06,213 - INFO - [<module>:19] - there are 3378 data in csv file and 3378 records are loaded in table
+2022-05-05 18:21:06,213 - INFO - [<module>:20] - batch for inserting data into SEC08H finished
+2022-05-05 18:21:06,214 - INFO - [<module>:21] -  

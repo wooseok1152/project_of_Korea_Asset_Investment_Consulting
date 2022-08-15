@@ -1,0 +1,5 @@
+2022-05-02 14:07:07,600 - INFO - [<module>:20] - making df_market_fundamental_by_base_date_and_is finished
+2022-05-02 14:07:07,653 - INFO - [<module>:23] - making csv file finished
+2022-05-02 14:07:07,920 - INFO - [<module>:26] - there are 14686 data in csv file and 14686 records are loaded in table
+2022-05-02 14:07:07,920 - INFO - [<module>:28] - batch for inserting data into SEC05T finished
+2022-05-02 14:07:07,920 - INFO - [<module>:29] -  

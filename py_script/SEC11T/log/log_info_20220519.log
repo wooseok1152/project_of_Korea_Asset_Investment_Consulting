@@ -1,0 +1,5 @@
+2022-05-19 10:24:32,896 - INFO - [<module>:20] - making df_exhaustion_rate_by_base_date_and_is finished
+2022-05-19 10:24:32,953 - INFO - [<module>:23] - making csv file finished
+2022-05-19 10:24:33,126 - INFO - [<module>:26] - there are 14984 data in csv file and 14984 records are loaded in table
+2022-05-19 10:24:33,127 - INFO - [<module>:28] - batch for inserting data into SEC11T finished
+2022-05-19 10:24:33,127 - INFO - [<module>:29] -  

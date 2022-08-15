@@ -1,0 +1,5 @@
+2022-05-23 13:06:13,223 - INFO - [<module>:19] - making df_bsnss_date finished
+2022-05-23 13:06:13,225 - INFO - [<module>:22] - making csv file finished
+2022-05-23 13:06:13,239 - INFO - [<module>:25] - there are 6 data in csv file and 6 records are loaded in table
+2022-05-23 13:06:13,239 - INFO - [<module>:27] - batch for inserting data into SEC13H finished
+2022-05-23 13:06:13,240 - INFO - [<module>:28] -  

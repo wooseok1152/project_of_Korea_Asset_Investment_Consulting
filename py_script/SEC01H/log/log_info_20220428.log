@@ -1,0 +1,7 @@
+2022-04-28 09:03:33,955 - INFO - [<module>:12] - downloading a csv file is finished
+2022-04-28 09:03:33,968 - INFO - [<module>:15] - path of recent csv file downloaded from krx webpage : ./crawling/downloads/data_0342_20220428.csv
+2022-04-28 09:03:33,982 - INFO - [<module>:18] - process of changing df to csv finished
+2022-04-28 09:03:33,983 - INFO - [<module>:19] - path of csv file for table insert material : ./csv_for_table_insert_material/SEC01H_20220428.csv
+2022-04-28 09:03:34,082 - INFO - [<module>:22] - 2623 records loaded in table
+2022-04-28 09:03:34,083 - INFO - [<module>:23] - batch for inserting data into SEC01H finished
+2022-04-28 09:03:34,083 - INFO - [<module>:24] -  

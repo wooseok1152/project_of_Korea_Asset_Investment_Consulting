@@ -1,0 +1,6 @@
+2022-05-02 22:08:20,319 - INFO - [<module>:19] - making df_OHLCV_by_base_date_and_is finished
+2022-05-02 22:08:20,372 - INFO - [<module>:22] - making csv file finished
+2022-05-02 22:09:11,733 - INFO - [<module>:32] - processing this batch failed
+2022-05-02 22:09:11,733 - INFO - [<module>:33] - Error :
+2022-05-02 22:09:11,733 - INFO - [<module>:34] - (1205, 'Lock wait timeout exceeded; try restarting transaction')
+2022-05-02 22:09:11,733 - INFO - [<module>:35] -  

@@ -1,0 +1,12 @@
+2022-05-10 11:03:22,093 - INFO - [<module>:15] - making a csv file finished
+2022-05-10 11:03:22,218 - INFO - [<module>:18] - there are 8354 data in csv file and 8342 records are loaded in table
+2022-05-10 11:03:22,219 - INFO - [<module>:19] - batch for inserting data into SEC30H finished
+2022-05-10 11:03:22,219 - INFO - [<module>:20] -  
+2022-05-10 11:14:18,796 - INFO - [<module>:15] - making a csv file finished
+2022-05-10 11:14:18,924 - INFO - [<module>:18] - there are 8354 data in csv file and 8354 records are loaded in table
+2022-05-10 11:14:18,924 - INFO - [<module>:19] - batch for inserting data into SEC30H finished
+2022-05-10 11:14:18,925 - INFO - [<module>:20] -  
+2022-05-10 11:26:07,081 - INFO - [<module>:15] - making a csv file finished
+2022-05-10 11:26:07,213 - INFO - [<module>:18] - there are 8354 data in csv file and 8354 records are loaded in table
+2022-05-10 11:26:07,213 - INFO - [<module>:19] - batch for inserting data into SEC30H finished
+2022-05-10 11:26:07,213 - INFO - [<module>:20] -  
