@@ -61,5 +61,5 @@
 * 증권 데이터의 특성상 '행의 개수'가 많기 때문에, 'INSERT'구문을 통해 데이터를 저장하면 많은 시간이 소요됨
 * 이에 따라, dump file(csv) 데이터를 테이블에 빠른 속도로 저장하는 'LOAD DATA INFILE'문법을 사용함
 * 'SEC07T(국내주식일별투자자합계)' 內 '투자자'에 대한 코드성 컬럼 생성(INVSTR_CD)  
-(코드 정의서 : )
+(코드 정의서 : https://github.com/wooseok1152/project_of_Korea_Asset_Investment_Consulting-portfolio-/blob/main/documents/specification_of_table.xlsx)
   
