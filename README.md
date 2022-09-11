@@ -20,7 +20,7 @@
 
 
 # Python Script에 대한 개요
-* SECXXH('이력성'테이블에 insert를 실시하는 프로그램)
+* SECXXH : '이력성'테이블에 insert를 실시하는 프로그램
   * 공통으로 사용되는 스크립트
     * main.py : batch file에 의해 실행되는 스크립트
     * logger.py : log 파일을 생성하는 스크립트
@@ -33,7 +33,7 @@
     * get_bsnss_date.py(SEC13H) : 한 주 내 평일을 조회하는 스크립트
 <br/><br/>
 
-* SECXXT('거래성'테이블에 insert를 실시하는 프로그램)
+* SECXXT : '거래성'테이블에 insert를 실시하는 프로그램
   * 공통으로 사용되는 스크립트
     * main.py : batch file에 의해 실행되는 스크립트
     * logger.py : log 파일을 생성하는 스크립트
@@ -45,17 +45,23 @@
     * insert_for_failed.py(SEC31T) : 데이터 수집 재시도를 성공한 종목들의 주가 데이터를 insert하는 스크립트
 <br/><br/>
 
-* make_cov_matrix(증권별 주가 데이터에 대한 Covariance Matrix를 생성하는 프로그램)
+* make_cov_matrix : 증권별 주가 데이터에 대한 Covariance Matrix를 생성하는 프로그램
   *  main.py : batch file에 의해 실행되는 스크립트
   *  domestic_stock.py : 국내 주식 종목별 1년 동안의 일별 수익률을 산출하고, 이를 DataFrame으로 선언하는 스크립트
   *  domestic_etf.py : 국내 ETF 종목별 1년 동안의 일별 수익률을 산출하고, 이를 DataFrame으로 선언하는 스크립트
   *  usa_stock.py : 미국 주식 종목별 1년 동안의 일별 수익률을 산출하고, 이를 DataFrame으로 선언하는 스크립트
   *  kue.py : 증권별 1년 동안의 일별 수익률 DataFrame(3개의 DataFrame)을 합친 후, Covariance Matrix를 산출하여 CSV파일로 저장하는 스크립트
+<br/><br/>
+
+* FTP : 분석 결과를 송신하는 프로그램
+  *  ftp.py : 고객사 FTP 서버에 분석 결과(csv file)를 송신하는 스크립트
+<br/><br/>
 
 # Batch Script에 대한 개요
-* history_table_batch.bat : '이력성'테이블 insert 작업에 대한 스크립트
-* transaction_table_batch.bat : '거래성'테이블 insert 작업에 대한 스크립트
-* make_cov_matrix.bat : Covariance Matrix 생성 스크립트
+* history_table_batch.bat : '이력성'테이블 insert 작업의 'main.py'를 실행하는 스크립트
+* transaction_table_batch.bat : '거래성'테이블 insert 작업의 'main.py'를 실행하는 스크립트
+* make_cov_matrix.bat : Covariance Matrix 생성의 'main.py'를 실행하는 스크립트
+* FTP.bat : 분석 결과 송신의 'ftp.py'를 실행하는 스크립트
 
 # 특이사항
 * 증권 데이터의 특성상 '행의 개수'가 많기 때문에, 'INSERT'구문을 통해 데이터를 저장하면 많은 시간이 소요됨
